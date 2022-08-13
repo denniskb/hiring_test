@@ -1,12 +1,12 @@
 ![screenshot](screenshot.png)
 
-## Build
+## Build & Run
 ```bash
 git clone https://github.com/denniskb/hiring_test.git
 cd hiring_test
 git submodule update --init --recursive
-cd hiring_test
 mkdir build
+cd build
 cmake -DCMAKE_BUILD_TYPE=Release ..
 make
 ./hiring_test
